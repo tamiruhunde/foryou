@@ -1,0 +1,27 @@
+.container{
+   width: 420px;
+   height: 400px;
+   background-color: red;
+   margin: auto;
+   clip-path: path('M213.1,6.7c-32.4-14.4-73.7,0-88.1,30.6C110.6,4.9,67.5-9.5,36.9,6.7C2.8,22.9-13.4,62.4,13.5,110.9 C33.3,145.1,67.5,170.3,125,217c59.3-46.7,93.5-71.9,111.5-106.1C263.4,64.2,247.2,22.9,213.1,6.7z');
+   transition: all 2s ease;
+}
+.container:hover{
+    transition: 10s;
+    clip-path: circle(100%);
+    background-color: aqua;
+    
+}
+.cont{
+    background-size: cover;
+    padding-top: 50%;
+    text-align: center;
+    font-size: 70px;
+    rotate: -15deg;
+    transition: all 10s ease;
+}
+.cont:hover{
+    background-size: 370px 400px;
+    background-repeat: no-repeat;
+    background-image: url("beut.png");
+}
